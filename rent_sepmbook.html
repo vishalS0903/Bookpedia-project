@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products details- BookPedia </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="bookpedia1.jpg" width="300px">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="allproducts.html">Products</a></li>
+                    <li><a href="login.php">Account </a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="Rent.html">Rent</a></li>
+                </ul>
+            </nav>
+            <img src="cart.png" width="40px" height="50px">
+            <img src="menu_icon1.png" class="menu_icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <!-- ------------single product detail------------ -->
+   <div class="small_container single-product">
+       <div class="row">
+           <div class="col-2">
+               <img src="sepm.jpg" alt="dbms book" width="50%">
+           </div>
+           <div class="col-2">
+            <h1>SOFTWARE ENGINEERING & PROJECT MANAGEMENT </h1>
+            <h3>Book Details</h3>
+            <p>Author: RICHARD H. THAYER</br>
+             Publisher: EDWARD YOURDON</br>
+             Category : Computers Engineering</br>
+             Languages : English</br>
+             Model : Second-Hand</br>
+             Pages : 520<BR>
+            Condition : Excellent<br>
+            <a href="Termsandcondition.html" id="sunil"> Terms and conditions applied </a>
+        </p>
+            <h4> &#8377 85 Per Month</h4>
+          <h3>Quantity:</h3>
+          <input type="number" value="1"><br>
+          <a href="rent_form.html" class="btn">Buy On Rent</a>
+           
+        </div>
+       </div>
+   </div> 
+<!---------title----------->
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More </p>
+    </div> 
+
+</div>
+
+    <div class="small-container">
+
+
+        <div class="row">
+            <div class="col-4">
+                <a href="rent_machinedesign.html"><img src="mechanical/machine design.jpeg"></a>
+                <h4>Fluid Mechanics</h4>
+                <!-- <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i> -->
+                <!-- </div> -->
+                <p> Condition: Good <br>
+                    On Rent : Available <br>
+                    Price To Rent: &#8377 70 per month<br>
+                    Terms & conditions Applied
+                </p>
+
+            </div>
+            <div class="col-4">
+                <a href="rent_DBMSbook.html"><img src="DBMS.jpg"></a>
+                <h4>DBMS</h4>
+                <!-- <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i> -->
+                <!-- </div> -->
+                <p> Condition: Excellent <br>
+                    On Rent : Available <br>
+                    Price To Rent: &#8377 70 per month<br>
+                    Terms & conditions Applied
+                </p>
+            </div>
+            <div class="col-4">
+                <a href="rent_sebook.html"> <img src="ss.jpg"></a>
+                <h4>SS</h4>
+                <!-- <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i> -->
+                <!-- </div> -->
+                <p> Condition: Excellent <br>
+                    On Rent : Available <br>
+                    Price To Rent: &#8377 70 per month<br>
+                    Terms & conditions Applied
+                </p>
+            </div>
+            <div class="col-4">
+                <a href="rent_DAAbook.html"><img src="daa.jpg"></a>
+                <h4>DAA</h4>
+                <!-- <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i> -->
+                <!-- </div> -->
+                <p> Condition: Good <br>
+                    On Rent : Available <br>
+                    Price To Rent: &#8377 70 per month<br>
+                    Terms & conditions Applied
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="STEEL STRUCTURE.jpeg">
+                    <h4>STEEL STRUCTURE</h4>
+                    <!-- <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i> -->
+                    <!-- </div> -->
+                    <p> Condition: Excellent <br>
+                        On Rent : Available <br>
+                        Price To Rent: &#8377 60 per month<br>
+                        Terms & conditions Applied
+                    </p>
+                </div>
+                <div class="col-4">
+                    <img src="mathematics books.jpg">
+                    <h4>E.MATHEMATICS</h4>
+                    <!-- <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i> -->
+                    <!-- </div> -->
+                    <p> Condition: Excellent <br>
+                        On Rent : Available <br>
+                        Price To Rent: &#8377 90 per month<br>
+                        Terms & conditions Applied
+                    </p>
+                </div>
+                <div class="col-4">
+                    <img src="KOM.jpeg" height="320px" width="195px">
+                    <h4>KINEMATICS OF MACHINES</h4>
+                    <!-- <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i> -->
+                    <!-- </div> -->
+                    <p> Condition: Excellent <br>
+                        On Rent : Available <br>
+                        Price To Rent: &#8377 60 per month<br>
+                        Terms & conditions Applied
+                    </p>
+                </div>
+                <div class="col-4">
+                    <img src="mechanics.jpg">
+                    <h4>MECHANICS</h4>
+                    <!-- <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i> -->
+                    <!-- </div> -->
+                    <p> Condition: Excellent <br>
+                        On Rent: Available <br>
+                        Price To Rent: &#8377 80 per month<br>
+                        Terms & conditions Applied
+                    </p>
+                </div>
+            </div>
+        
+    </div>
+    <!------footer----->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <!---<li>Coupons</li>--->
+                        <li> BloG Post</li>
+                        <li> Return Policy</li>
+                        <li> Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <!---<li>YouTube</li>--->
+                        <li> Facebook</li>
+                        <li> Instagram</li>
+                        <li> Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2022 -BooKpedia</p>
+        </div>
+    </div>
+    <!-- js for toggle menu -->
+    <script> var menuItems = document.getElementById("menuItems");
+        menuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight == "200px";
+
+            }
+            else {
+                menuItems.style.maxHeight = "0px";
+
+            }
+        }
+    </script>
+</body>
+
+</html>

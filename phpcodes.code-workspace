@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Users\\visha\\c++ programming"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\HTML"
+		},
+		{
+			"path": "..\\HTML TUTORIAL BY TECH GUN"
+		},
+		{
+			"path": "..\\c++ codes"
+		},
+		{
+			"path": "c:\\Users\\visha\\C LANGUAGE ADVANCE"
+		},
+		{
+			"path": "..\\MINI PROJECT"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"1HELLO.C": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "D:"
+	}
+}

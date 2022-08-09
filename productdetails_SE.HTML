@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products details- BookPedia </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="bookpedia1.jpg" width="300px">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="allproducts.html">Products</a></li>
+                    <li><a href="register.php">Account </a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="Rent.html">Rent</a></li>
+                </ul>
+            </nav>
+            <a href="mycart.php" class="btn btn-success"> My Cart (<?php echo $count; ?>)</a>
+
+        </div>
+        <div class="botton">
+            <button onclick="window.history.back()" > Go Back</button>
+    
+        </div>
+
+    </div>
+
+    <!-- ------------single product detail------------ -->
+   <div class="small_container single-product">
+       <div class="row">
+           <div class="col-2">
+               <img src="ss.jpg" alt="Ss book" width="50%">
+           </div>
+           <div class="col-2">
+               <P>Home / SOFTWARE ENGINEERING BOOK</P>
+               <h1>SOFTWARE ENGINEERING </h1>
+               <h3>Book Details</h3>
+               <p>Author: K K AGRAWAL, YOGESH SINGH</br>
+                Publisher: NEW AGE INTERNATIONAL PUBLISHING</br>
+                Category : Computers Engineering</br>
+                Languages : English</br>
+                Model : Second-Hand</br>
+                Pages : 520</p>
+               <h4>MRP &#8377<del> 900.00</del><br> Selling Price &#8377 450</h4>
+               <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
+                         <input type="hidden" name="Item_Name" value="Software Engineering">
+                         <input type="hidden" name="price" value="450">
+                  
+              
+           </div>
+       </div>
+   </div> 
+<!---------title----------->
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More </p>
+    </div> 
+
+</div>
+
+    <div class="small-container">
+
+
+        <div class="row">
+            <div class="col-4">
+                <a href="productdetails_DBMS.html"> <img src="DBMS.jpg"> </a>
+                <h4>DBMS</h4>
+                <!-- <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i> -->
+                <!-- </div> -->
+                <p> MRP &#8377<del> 1000.00</del><br> Selling Price &#8377 500
+                </p>
+
+            </div>
+            <div class="col-4">
+                <a href="productdetails_daa.html"><img src="daa.jpg"></a>
+                <h4>DAA</h4>
+                <!-- <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i> -->
+                <!-- </div> -->
+                <p> MRP &#8377<del> 1000.00</del><br> Selling Price &#8377 500
+                </p>
+            </div>
+            <div class="col-4">
+                <a href="productdetailsSEPM.html"><img src="sepm.jpg"></a>
+                <h4>SEPM</h4>
+                <!-- <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i> -->
+                <!-- </div> -->
+                <p> MRP &#8377<del> 900.00</del><br> Selling Price &#8377 450
+                </p>
+            </div>
+            <div class="col-4">
+                <a href="productdetails_SE.HTML"> <img src="ss.jpg"> </a> 
+                <h4>SS</h4>
+                <!-- <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i> -->
+                <!-- </div> -->
+                <p> MRP &#8377<del> 800.00</del><br> Selling Price &#8377 300
+                </p>
+            </div>
+             </div>
+
+        </div>
+    </div>
+    </div>
+    <!------footer----->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <!---<li>Coupons</li>--->
+                        <li> BloG Post</li>
+                        <li> Return Policy</li>
+                        <li> Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <!---<li>YouTube</li>--->
+                        <li> Facebook</li>
+                        <li> Instagram</li>
+                        <li> Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2022 -BooKpedia</p>
+        </div>
+    </div>
+    <!-- js for toggle menu -->
+    <script> var menuItems = document.getElementById("menuItems");
+        menuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight == "200px";
+
+            }
+            else {
+                menuItems.style.maxHeight = "0px";
+
+            }
+        }
+    </script>
+</body>
+
+</html>

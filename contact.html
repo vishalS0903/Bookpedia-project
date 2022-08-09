@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<br>
+    <div class="botton">
+        <button onclick="window.history.back()" > Go Back</button>
+
+    </div> <br> <br> <br> <br> <br>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+
+<body>
+<section class="contact" id="contact">
+    <h1 class="heading"> <span>contact</span> us </h1>
+    <form actin="">
+        <div class="inputBox">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="E-mail">
+        </div>
+        <div class="inputBox">
+            <input type="number" placeholder="Number">
+            <input type="text" placeholder="Subject">
+        </div>
+        <textarea placeholder="Message" name="" id="" cols="10" row=""></textarea>
+    <input type="submit" value="send message" class="btn">
+    </form>
+</section>
+<!-- js for toggle menu -->
+<script> var menuItems = document.getElementById("menuItems");
+    menuItems.style.maxHeight = "0px";
+    function menutoggle() {
+        if (menuItems.style.maxHeight == "0px") {
+            menuItems.style.maxHeight == "200px";
+
+        }
+        else {
+            menuItems.style.maxHeight = "0px";
+
+        }
+    }
+</script>
+</body>
+</html>

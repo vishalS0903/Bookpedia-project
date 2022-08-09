@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Login and Registration form </title>
+    <link rel="stylesheet" href="login.css" >
+</head>
+
+<body>
+
+            <div class="hero">
+                <a href="index.html"><img src="back_logo_1.png" width="300px" height="100px"></a>
+
+                <div class="form-box">
+                    <div class="button-box">
+                        <div id="btn"></div>
+                        <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+                        <button type="button" class="toggle-btn" onclick="Register()">Register</button>
+                    </div>
+
+                    <form id="login" class="input-group">
+                        <input type="text" class="input-field" placeholder="User id" required>
+                        <input type="text" class="input-field" placeholder="Password" required>
+                        <br><br><br><br>
+                        <button type="submit" class="submit-btn">Log in</button><br>
+                    </form>
+
+                    <!-- <div class="social-icons">
+               <a href="https://www.facebook.com/login/" target="_blank"> <img src="fb.png" title="click here to login with facebook" ></a>
+               <a href="twitter.com" target="_main">  <img src="tw.png"></a>
+                <a href="htts://google.com" target="_main">  <img src="google.png"></a>
+             </div> -->
+                    <form id="Register" class="input-group" action="../api/register.php" method="POST">
+                        <input type="text" name="user_id" class="input-field" placeholder="User id" required>
+                        <input type="email" name="email_address" class="input-field" placeholder="Email id" required>
+                        <input type="number" name="mobile_no" class="input-field" placeholder="Enter mo no" required>
+                        <input type="password" name="password" class="input-field" placeholder="Password" required>
+                        <input type="password" name="cpassword" class="input-field" placeholder="conform Password" required>
+                        <input type="checkbox" class="check-box">
+                        <span>I agree terms and condition</span>
+                        <button type="submit" class="submit-btn" action="">Register</button>
+                    </form>  
+                 
+ 
+                </div>
+            </div>
+            <script>
+                var x = document.getElementById("login");
+                var y = document.getElementById("Register");
+                var z = document.getElementById("btn");
+
+                function Register() {
+                    x.style.left = "-400px";
+                    y.style.left = "50px";
+                    z.style.left = "110px";
+                }
+                function login() {
+                    x.style.left = "50px";
+                    y.style.left = "450px";
+                    z.style.left = "0px";
+                }
+            </script>
+           
+
+</body>
+
+</html>
